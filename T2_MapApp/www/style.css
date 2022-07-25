@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+body {
+  size: 13px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+h1#title {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  size: 70px;
+  font-weight: bold;
+}
+
+#control h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.leaflet-popup-content h4 {
+  font-weight: bold;
+}
+
+.leaflet-popup-content {
+  font-size: 14px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+div#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+}
+
+div#control {
+  background-color: #FFF;
+  max-width: 350px;
+  width: 20%;
+  margin-right: 25px;
+  padding: 0 20px;
+  flex: 0 0 auto;
+}
+
+div#map {
+  width: calc(80% - 25px);
+  height: 85vh!important;
+  flex: 0 0 auto;
+}
+
+#ProgramMap {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+button#selectall, button#reset {
+  padding: 3px 10px;
+  margin-bottom: 15px;
+}
+
+button#selectall:hover, button#reset:hover {
+  border-color: #333;
+  background-color: #FFF;
+}
